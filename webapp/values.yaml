@@ -159,3 +159,10 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+replicaCount: 3
+
+image:
+  repository: nginx
+  tag: stable
+  pullPolicy: IfNotPresent
